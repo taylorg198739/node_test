@@ -1,1 +1,4 @@
-# node_test
+Run these commands
+
+# npm install
+# npm start

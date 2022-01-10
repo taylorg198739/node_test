@@ -1,0 +1,26 @@
+{
+  "name": "typescript_node_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --trace-warnings --inspect -r ts-node/register src/main.ts",
+    "prestart": "tsc",
+    "start": "node dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taylorg198739/node_test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taylorg198739/node_test/issues"
+  },
+  "homepage": "https://github.com/taylorg198739/node_test#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.8",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  }
+}
